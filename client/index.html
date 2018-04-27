@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Darts</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="screen">
+      <ul class="scorelines"></ul>
+
+      <form class="send-score-form">
+        <input class="new-score" type="number" min="1" max="180" placeholder="Enter your Score" />
+        <button type="submit">Score Points</button>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="./vendor/wolkenkit-client.browser.min.js"></script>
+
+    <script type="text/javascript" src="./view.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
